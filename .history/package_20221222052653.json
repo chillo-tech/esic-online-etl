@@ -1,0 +1,20 @@
+{
+  "name": "esic-online-etl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "compilerOptions": { "allowJs": true, "outDir": "./dist" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "migrate": "./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "node-fetch": "^2.6.7"
+  }
+}
