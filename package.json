@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "migrate": "./src/index.js"
+    "migrate": "./src/index.js",
+    "update-trainings-fields": "./src/update-trainings.js"
   },
   "keywords": [],
   "author": "",
